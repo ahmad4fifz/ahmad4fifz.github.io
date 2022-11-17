@@ -8,14 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ahmad A\'fif',
   tagline: 'My personal area ...',
-  url: 'https://ahmad4fifz.github.io',
+  url: 'https://ahmad4fifz.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   organizationName: 'ahmad4fifz',
-  projectName: 'docusaurus',
+  projectName: 'ahmad4fifz.github.io',
 
   presets: [
     [
@@ -25,12 +25,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/ahmad4fifz/docusaurus/tree/main/',
+            'https://github.com/ahmad4fifz/ahmad4fifz.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/ahmad4fifz/docusaurus/tree/main/',
+            'https://github.com/ahmad4fifz/ahmad4fifz.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
             label: 'Notes',
           },
           {
-            href: 'https://github.com/ahmad4fifz/docusaurus',
+            href: 'https://github.com/ahmad4fifz/ahmad4fifz.github.io',
             label: 'GitHub',
             position: 'right',
           },
